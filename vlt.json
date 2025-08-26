@@ -1,0 +1,7 @@
+{
+    "identity": "personal",
+    "registries": {
+        "npm": "https://registry.npmjs.org",
+        "local": "http://localhost:1337"
+    }
+}

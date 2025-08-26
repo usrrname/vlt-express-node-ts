@@ -1,0 +1,27 @@
+{
+  "name": "vlt-express-node-typescript",
+  "version": "0.0.1",
+  "description": "Only returns hello world for GET to /",
+  "main": "index.js",
+  "author": {
+    "name": "Jen Chan",
+    "email": "6406037+usrrname@users.noreply.github.com"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server/index.js",
+    "dev": "tsc && node dist/server/index.js",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "node": "^24.6.0",
+    "typescript": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.3.0"
+  },
+  "type": "module"
+}
